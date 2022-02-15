@@ -10,11 +10,9 @@ class FirstScene extends Phaser.Scene {
         this.load.image('logo', './assets/images/logo.png');
         this.load.image('moving-rectangle', './assets/images/frame.png');
         this.load.image('main-rectangle', './assets/images/rectangle.png');
-        this.load.image('1', './assets/images/1.png');
         this.load.image('2', './assets/images/2.png');
         this.load.image('3', './assets/images/3.png');
         this.load.image('4', './assets/images/4.png');
-        this.load.image('5', './assets/images/5.png');
         this.load.image('6', './assets/images/6.png');
         this.load.image('7', './assets/images/7.png');
         this.load.image('8', './assets/images/8.png');
