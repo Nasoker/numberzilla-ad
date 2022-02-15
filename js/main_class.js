@@ -181,7 +181,7 @@ class FirstScene extends Phaser.Scene {
         /* Load and play Sound  */
 
         const mainSound = this.sound.add('main');
-        /* mainSound.play(); */
+        mainSound.play();
 
         /* LOAD LAST SCENE */
         const darkenRectangle = this.add.rectangle(0, 0, 540, 960, 0x404040)
