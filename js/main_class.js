@@ -242,7 +242,7 @@ class FirstScene extends Phaser.Scene {
                 yoyo:true,
             });
         }
-        this.finishEvent = this.time.addEvent({ delay: 3000, callback: visibleTime, loop: false });
+        this.finishEvent = this.time.addEvent({ delay: 15000, callback: visibleTime, loop: false });
     }
 }
 
